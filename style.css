@@ -1,0 +1,120 @@
+.rainbow {
+	background: rgba(247,197,250,1);
+	background: -moz-linear-gradient(left, rgba(247,197,250,1) 0%, rgba(158,242,228,1) 21%, rgba(197,245,169,1) 40%, rgba(245,239,174,1) 61%, rgba(245,219,188,1) 80%, rgba(245,191,188,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,197,250,1)), color-stop(21%, rgba(158,242,228,1)), color-stop(40%, rgba(197,245,169,1)), color-stop(61%, rgba(245,239,174,1)), color-stop(80%, rgba(245,219,188,1)), color-stop(100%, rgba(245,191,188,1)));
+	background: -webkit-linear-gradient(left, rgba(247,197,250,1) 0%, rgba(158,242,228,1) 21%, rgba(197,245,169,1) 40%, rgba(245,239,174,1) 61%, rgba(245,219,188,1) 80%, rgba(245,191,188,1) 100%);
+	background: -o-linear-gradient(left, rgba(247,197,250,1) 0%, rgba(158,242,228,1) 21%, rgba(197,245,169,1) 40%, rgba(245,239,174,1) 61%, rgba(245,219,188,1) 80%, rgba(245,191,188,1) 100%);
+	background: -ms-linear-gradient(left, rgba(247,197,250,1) 0%, rgba(158,242,228,1) 21%, rgba(197,245,169,1) 40%, rgba(245,239,174,1) 61%, rgba(245,219,188,1) 80%, rgba(245,191,188,1) 100%);
+	background: linear-gradient(to right, rgba(247,197,250,1) 0%, rgba(158,242,228,1) 21%, rgba(197,245,169,1) 40%, rgba(245,239,174,1) 61%, rgba(245,219,188,1) 80%, rgba(245,191,188,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7c5fa', endColorstr='#f5bfbc', GradientType=1 );
+}
+
+a {
+	text-decoration: none;
+	color: #d8b5f4;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.6;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 50px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+	font-size: 30px;
+	font-family: helvetica;
+	line-height: 2;
+	color: #d8b5f4;
+}
+
+h3 {
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: futura;
+    line-height: 3;
+}
+
+.name {
+	padding-bottom: 0;
+	padding-top: 30px;
+}
+
+.indent {
+	text-indent: 20px;
+}
+
+.nav {
+	height: 35%;
+}
+
+.page {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.home {
+	height: 580px; 
+	margin-top: 50px;
+}
+
+.resume, .projects {
+	height: px;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  color: black;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(255, 255, 255, .8);
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa {
+	padding: 8px;
+	color: #d8b5f4;
+}
+
+.outline {
+	width: 130%;
+}
