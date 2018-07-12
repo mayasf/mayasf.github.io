@@ -24,20 +24,21 @@ p {
 }
 
 h1 {
-	font-family: 'Abril Fatface', cursive;
-	font-size: 50px;
+  	font-family: strawberry blossom;
+  	font-size: 70px;
     padding: 40px;
     color: white;
     text-align: center;
-    text-transform: uppercase;
     letter-spacing: 3px;
 }
+
 
 h2 {
 	font-size: 30px;
 	font-family: helvetica;
 	line-height: 2;
 	color: #d8b5f4;
+  letter-spacing: 3px;
 }
 
 h3 {
@@ -49,7 +50,7 @@ h3 {
 
 .name {
 	padding-bottom: 0;
-	padding-top: 30px;
+	padding-top: 25px;
 }
 
 .indent {
@@ -74,7 +75,7 @@ h3 {
 	height: px;
 }
 
-.mermaid {
+.mermaid, .bedroom, .poster {
   width: 300px;
 }
 
@@ -126,6 +127,7 @@ h3 {
   color: black;
   font-size: 40px;
   font-family: helvetica;
+  letter-spacing: 3px;
 }
 
 .fa {
