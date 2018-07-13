@@ -43,9 +43,9 @@ h2 {
 
 h3 {
 	text-transform: uppercase;
-    letter-spacing: 3px;
-    font-family: futura;
-    line-height: 3;
+  letter-spacing: 3px;
+  font-family: futura;
+  line-height: 3;
 }
 
 .name {
@@ -64,11 +64,6 @@ h3 {
 .page {
 	margin-top: 2%;
 	margin-bottom: 2%;
-}
-
-.home {
-	height: 580px; 
-	margin-top: 50px;
 }
 
 .resume, .projects {
@@ -125,9 +120,10 @@ h3 {
 
 .text2 {
   color: black;
-  font-size: 40px;
-  font-family: helvetica;
+  font-size: 50px;
+  font-family: strawberry blossom;
   letter-spacing: 3px;
+  line-height: 1.2;
 }
 
 .fa {
@@ -141,4 +137,78 @@ h3 {
 
 .outline {
 	width: 130%;
+}
+
+
+.container {
+  height: 525px; 
+  margin-top: 50px;
+}
+ 
+/*photobanner*/
+ 
+.photobanner {
+ height: 233px;
+ width: 3550px;
+ margin-bottom: 80px;
+}
+
+
+/*keyframe animations*/
+.first {
+ -webkit-animation: bannermove 30s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+     -ms-animation: bannermove 30s linear infinite;
+      -o-animation: bannermove 30s linear infinite;
+         animation: bannermove 30s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
 }
