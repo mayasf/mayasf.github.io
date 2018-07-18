@@ -52,6 +52,10 @@ h3 {
   margin-top: -10px;
 }
 
+.slash {
+    color: #d8b5f4;
+}
+
 .indent {
 	text-indent: 20px;
 }
