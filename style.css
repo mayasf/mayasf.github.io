@@ -52,6 +52,10 @@ h3 {
   margin-top: -10px;
 }
 
+.navlinks {
+  text-align: center;
+}
+
 .slash {
     color: #d8b5f4;
 }
@@ -212,7 +216,7 @@ h3 {
  
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
         .logo {
             width: 95%;
             margin-top: -10px;
@@ -220,4 +224,7 @@ h3 {
         .box {
           margin: 10px;
         }
-    }
+        .navlinks {
+            font-size: 10px;
+          }
+}
