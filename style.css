@@ -60,10 +60,6 @@ h3 {
     color: #d8b5f4;
 }
 
-.indent {
-	text-indent: 20px;
-}
-
 .nav {
 	height: 35%;
 }
@@ -218,7 +214,5 @@ h3 {
         .navlinks {
             font-size: 13px;
           }
-        .mermaid, .bedroom, .poster {
-            width: 300px;
-          }
+        
 }
