@@ -19,7 +19,7 @@ a:hover {
 }
 
 p {
-	font-family: 'Playfair Display', serif;
+	font-family: futura, sans-serif;
 	line-height: 1.6;
 }
 
@@ -32,10 +32,9 @@ h1 {
     letter-spacing: 3px;
 }
 
-
 h2 {
 	font-size: 30px;
-	font-family: helvetica;
+	font-family: futura, sans-serif;
 	line-height: 2;
 	color: #d8b5f4;
   letter-spacing: 3px;
@@ -44,13 +43,13 @@ h2 {
 h3 {
 	text-transform: uppercase;
   letter-spacing: 3px;
-  font-family: futura;
+  font-family: futura, sans-serif;
   line-height: 3;
 }
 
-.name {
-	padding-bottom: 0;
-	padding-top: 25px;
+.logo {
+  width: 40%;
+  margin-top: -10px;
 }
 
 .indent {
@@ -64,10 +63,6 @@ h3 {
 .page {
 	margin-top: 2%;
 	margin-bottom: 2%;
-}
-
-.resume, .projects {
-	height: px;
 }
 
 .mermaid, .bedroom, .poster {
@@ -212,3 +207,13 @@ h3 {
  }
  
 }
+
+@media only screen and (max-width: 400px) {
+        .logo {
+            width: 95%;
+            margin-top: -10px;
+          }
+        .box {
+          margin: 10px;
+        }
+    }
