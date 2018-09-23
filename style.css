@@ -115,8 +115,8 @@ h3 {
 
 .text2 {
   color: black;
-  font-size: 50px;
-  font-family: strawberry blossom;
+  font-size: 30px;
+  font-family: futura, sans-serif;
   letter-spacing: 3px;
   line-height: 1.2;
 }
@@ -208,8 +208,16 @@ h3 {
  
 }
 
+.mobile-text {
+  display: none;
+}
 
+@media only screen and (max-width: 769px) {
+  .mobile-text {
+            display: block;
+          }
 
+}
 @media only screen and (max-width: 500px) {
         .logo {
             width: 95%;
@@ -221,5 +229,6 @@ h3 {
         .navlinks {
             font-size: 13px;
           }
+          
         
 }
