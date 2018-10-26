@@ -8,6 +8,8 @@
       <link rel="stylesheet" type="text/css" href="style.css">
       <link rel="stylesheet" href="flexboxgrid.css" type="text/css">
       <link rel="shortcut icon" href="favicon.png">
+      <script src="script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 
       <title>Maya Shaw-Faber</title>
       <script src="https://use.fontawesome.com/6c08d00ab2.js"></script>
@@ -20,16 +22,22 @@
      
       <body> 
 
-    <div class="row nav rainbow" id="top">
-      <div class="col-xs-12 center-xs">
-        <img src="mayalogo.png" class="logo">
+        <!--nav header-->
+
+    <div class="row nav">
+      <div class="col-xs-12 center-xs gradient">
+        <a href="index.html"><img src="mayalogo.svg" class="logo"></a> 
           <h3 class="navlinks">
-            <a href="#one">Résumé</a> <span class="slash">//</span>
-            <a href="#two">Projects</a> <span class="slash">//</span>
-            <a href="#three">Contact</a> 
+           <a class="wiggle" href="#one">Experience</a>
+            <a class="wiggle padding" href="#two">Projects</a>
+            <a class="wiggle" href="#three">Contact</a>
           </h3>
       </div>
     </div>
+
+            <!--nav header-->
+
+            <!--home page-->
 
     <div class="row">
     <div class="col-xs-12">
@@ -54,51 +62,32 @@
   </div>
 </div>
 
+     <!--home page-->
+
+      <!--Experience header-->
 
 
+    <div class="row Experience" id="one" style="margin-bottom: 50px;">
 
-    <div class="row resume" id="one">
-      <div class="col-xs-12 rainbow">
-      <h1>Résumé</h1>
+      <div class="col-xs-12 gradient">
+      <h1>Experience</h1>
       </div>
+
     </div>
 
-    <div class="row page">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-3">
-          <h2>Education</h2>
-          <h3>Parsons, The New School</h3>
-          <p>Certificate in Graphic and Digital Design</p>
-          <p>June 2018 – present</p>
-          <br><p>B.A. in Liberal Arts</p>
-          <p>January 2017 – December 2017</p>
-          <p>- Honors & Dean’s List</p>
-          <p>- GPA: 3.7</p>
-          <h3>New York University</h3>
-          <p>2012 – 2016</p>
-          <p>- Dean’s List</p>
-          <p>- Studied abroad in Florence, Italy</p>
-          <h2>Skills</h2>
-          <div class="row">
-            <div class="col-xs">
-              <p>Bootstrap
-              <br>Git
-              <br>GitHub
-              <br>HTML & CSS
-              <br>Illustrator</p>
-            </div>
-            <div class="col-xs">
-              <p>InDesign
-              <br>Materialize
-              <br>Mac & PC
-              <br>Photoshop
-              <br>Social Media</p>
-            </div>
-            </div>
-        </div>
+      <!--Experience header-->
+
+       <!--Experience page new -->
+
+       <!--!timeline-->
+
+<div class="timeline">
 
 
-      <div class="col-xs-10 col-xs-offset-1 col-sm-3">
-        <h2>Experience</h2>
+
+    <div class="container1 left">
+    <div class="content bounce-2">
+
         <h3>Twenty Over Ten</h3>
         <p>Web Designer & Developer</p>
         <p>July 2018 – present</p>
@@ -108,163 +97,232 @@
         <p>New York, April 2018 – July 2018</p>
         <p>- Assisted in creating new sites and migrating existing sites</p>
         <p>- Created graphics and other design elements</p>
-        <h3>New York City Ballet</h3>
-        <p>Intern, Event Development Department</p>
-        <p>New York, November 2015 – January 2016</p>
-        <p>- Researched and analyzed brands, designers, and trends</p>
-        <h3><a href="MayaShawFaberResume.pdf" target="_blank">Resume PDF</a></h3>
-        <h3><a href="References.pdf" target="_blank">References PDF</a></h3>
 
-
-
-      </div>
     </div>
+  </div>
 
-    <div class="row projects" id="two">
-      <div class="col-xs-12 rainbow">
+
+
+
+
+
+    <div class="container1 right">
+    <div class="content bounce-2">
+          <h3>Parsons, The New School</h3>
+          <p>Certificate in Graphic and Digital Design</p>
+          <p>June 2018 – present</p>
+          <br><p>B.A. in Liberal Arts</p>
+          <p>January 2017 – December 2017</p>
+          <p>- Honors & Dean’s List</p>
+          <p>- GPA: 3.7</p>
+
+    </div>
+  </div>
+
+      <div class="container1 left">
+    <div class="content bounce-2">
+
+          <h3>New York University</h3>
+          <p>2012 – 2016</p>
+          <p>- Dean’s List</p>
+          <p>- Studied abroad in Florence, Italy</p>
+    </div>
+  </div>
+   <div class="container1 right">
+    <div class="content bounce-2">
+      <h2>Skills</h2>
+
+<div class="row">
+    <div class="col-xs">
+               
+              <p>Bootstrap
+              <br>Git
+              <br>GitHub
+              <br>HTML & CSS
+              <br>Illustrator</p>
+            <h3><a class="wiggle" href="MayaShawFaberResume.pdf" target="_blank">Resume PDF</a></h3>
+            </div>
+
+            <div class="col-xs">
+              <p>InDesign
+              <br>Materialize
+              <br>Mac & PC
+              <br>Photoshop
+              <br>Social Media</p>
+              <h3><a class="wiggle" href="References.pdf" target="_blank">References PDF</a></h3>
+            </div>
+            </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+       <!--timeline-->
+
+
+        <!--Experience page-->
+
+        <!--projects header-->
+
+
+    <div class="row projects" id="two" style="margin-top: 50px;">
+      <div class="col-xs-12 gradient">
       <h1>Projects</h1>
       </div>
     </div>
 
-    <div class="row page middle-sm center-xs">
+    <!--projects header-->
 
-            <div class="col-xs-12 col-sm-3">
+    <!--projects page-->
 
-
-
-        
-        <div class="box"><a href="postcards.html">
-          <img src="projects/postcards.png" class="image poster">
-          <div class="overlay">
-            <div class="text text2">
-              <p class="text2">Postcards</p>
-            </div>
-          </div><h2 class="mobile-text">Postcards</h2></a>
-        </div>
-
-      </div>
-        <div class="col-xs-12 col-sm-3">
-
-        <div class="box"><a href="http://danielfaber.com/" target="_blank">
-          <img src="projects/danfaber.png" class="image mermaid">
-          <div class="overlay">
-            <div class="text">
-              <p class="text2">Daniel Faber, Attorney at Law</p>
-            </div>
-          </div><h2 class="mobile-text">Daniel Faber, Attorney at Law</h2></a>
-        </div>
-
-      </div>
-
-      <div class="col-xs-12 col-sm-3">
-
-        <div class="box"><a href="flavin.html">
-          <img src="projects/flavin.png" class="image mermaid">
-          <div class="overlay">
-            <div class="text">
-              <p class="text2">Dan Flavin Exhibit</p>
-            </div>
-          </div><h2 class="mobile-text">Dan Flavin Exhibit</h2></a>
-        </div>
-
-      </div>
-
-      
+    <!--grid-->
 
 
+<div class="row page middle-sm center-xs">
+
+<div class="col-xs-12 col-sm-3">
+<!--card-->
+<a href="postcards.html">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="projects/postcards.png" class="thumb">
     </div>
+    <div class="flip-card-back">
+      <h2>Postcards</h2> 
+    </div>
+  </div>
+</div>
+</a>
+<!--card-->
+</div>
+<div class="col-xs-12 col-sm-3">
+<!--card-->
+<a href="http://danielfaber.com" target="_blank">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="projects/danfaber.png" class="thumb">
+    </div>
+    <div class="flip-card-back">
+      <h2>Daniel Faber, Attorney at Law</h2> 
+    </div>
+  </div>
+</div>
+</a>
+<!--card-->
+</div>
+<div class="col-xs-12 col-sm-3">
+<!--card-->
+<a href="flavin.html">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="projects/flavin.png" class="thumb">
+    </div>
+    <div class="flip-card-back">
+      <h2>Dan Flavin Exhibit</h2> 
+    </div>
+  </div>
+</div>
+</a>
+<!--card-->
+</div></div>
 
+<div class="row page middle-sm center-xs">
 
+<div class="ccol-xs-12 col-sm-3">
+<!--card-->
+<a href="projects/MShaw-FaberFutura.pdf" target="_blank">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="projects/poster.png" class="thumb">
+    </div>
+    <div class="flip-card-back">
+      <h2>Futura Typeface Poster</h2> 
+    </div>
+  </div>
+</div>
+</a>
+<!--card-->
+</div>
+<div class="col-xs-12 col-sm-3">
+<!--card-->
+<a href="https://mayasf.github.io/mermaids-are-real/" target="_blank">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="projects/mermaid.png" class="thumb">
+    </div>
+    <div class="flip-card-back">
+      <h2>Mermaids Are Real</h2> 
+    </div>
+  </div>
+</div>
+</a>
+<!--card-->
+</div>
+<div class="col-xs-12 col-sm-3">
+<!--card-->
+<a href="https://mayasf.github.io/MayasDesk/" target="_blank">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="projects/desk.png" class="thumb">
+    </div>
+    <div class="flip-card-back">
+      <h2>Maya's Desk</h2> 
+    </div>
+  </div>
+</div>
+</a>
+<!--card-->
+</div></div>
 
-
-
-
-      <div class="row page middle-sm center-xs">
-              <div class="col-xs-12 col-sm-3">
-
-        <div class="box"><a href="projects/MShaw-FaberFutura.pdf" target="_blank">
-          <img src="projects/poster.png" class="image poster">
-          <div class="overlay">
-            <div class="text text2">
-              <p class="text2">Futura Typeface Poster</p>
-            </div>
-          </div><h2 class="mobile-text">Futura Typeface Poster</h2></a>
-        </div>
-
-      </div>
-
-      <div class="col-xs-12 col-sm-3">
-        
-        <div class="box"><a href="https://mayasf.github.io/bedrooms/index.html" target="_blank">
-          <img src="projects/bedrooms.png" class="image bedroom">
-          <div class="overlay">
-            <div class="text text2">
-              <p class="text2">Bedrooms</p>
-            </div>
-          </div><h2 class="mobile-text">Bedrooms</h2></a>
-        </div>
-
-         </div>
-
-      <div class="col-xs-12 col-sm-3">
-
-        <div class="box"><a href="https://mayasf.github.io/mermaids-are-real/" target="_blank">
-          <img src="projects/mermaid.png" class="image mermaid">
-          <div class="overlay">
-            <div class="text">
-              <p class="text2">Mermaids Are Real</p>
-            </div>
-          </div><h2 class="mobile-text">Mermaids Are Real</h2></a>
-        </div>
-
-      </div>
-
-      </div></div>
-
-            <div class="row page middle-sm center-xs">
-              <div class="col-xs-12 col-sm-3">
-                    
-
-        <div class="box"><a href="https://mayasf.github.io/MayasDesk" target="_blank">
-          <img src="projects/desk.png" class="image mermaid">
-          <div class="overlay">
-            <div class="text">
-              <p class="text2">Maya's Desk</p>
-            </div>
-          </div><h2 class="mobile-text">Maya's Desk</h2></a>
-        </div></div></div></div>
-
-
-
+<!--grid-->
 
 </div>
 
-        <div class="row contact" id="three">
-      <div class="col-xs-12 rainbow">
+ <!--projects page-->
+
+<!--contact header-->
+
+        <div class="row center-xs contact" id="three">
+      <div class="col-xs-12 gradient">
       <h1>Contact</h1>
       </div>
     </div>
 
+    <!--contact header-->
+
+    <!--contact page-->
+
+  
+    <!--here-->
+
     <div class="row center-xs page">
-      <div class="col-xs-12">
+      <div class="col-xs-12 center-xs">
       <h3>mayasf@gmail.com</h3>
       <h3>mayashawfaber.com</h3>
       <h3>(505) 620-6876</h3>
       </div>
     </div>
     <div class="row center-xs page">
-      <div class="col-xs-12">
-      <a href="mailto:mayasf@gmail.com"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i> 
-      <a href="https://www.instagram.com/mayasf/?hl=en" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-      <a href="https://www.facebook.com/maya.shawfaber" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
-      <a href="https://github.com/mayasf" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/maya-shaw-faber-2598b8114/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+      <div class="col-xs-12 center-xs">
+      <a class="wiggle" href="mailto:mayasf@gmail.com"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i> 
+      <a class="wiggle" href="https://www.instagram.com/mayasf/?hl=en" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+      <a class="wiggle" href="https://www.facebook.com/maya.shawfaber" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+      <a class="wiggle" href="https://github.com/mayasf" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+      <a class="wiggle" href="https://www.linkedin.com/in/maya-shaw-faber-2598b8114/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
 
 
 
       </div>
     </div>
-
+<!--contact page-->
 
 
 
