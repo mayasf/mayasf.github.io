@@ -43,7 +43,8 @@ a:hover {
 
 p {
 	font-family: futura, sans-serif;
-	line-height: 1.6;
+	line-height: 1.6em;
+  font-size: 1em;
 }
 
 h1 {
@@ -309,6 +310,10 @@ h3 {
   transform: rotateY(180deg);
 }
 
+.flip-card:hover .flip-card-inner2 {
+  transform: rotateX(180deg);
+}
+
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -319,12 +324,21 @@ h3 {
 .flip-card-front {
   color: black;
   z-index: 2;
+  background: white;
 }
 
 .flip-card-back {
-  background-color: ;
+  background-color: white;
   color: white;
   transform: rotateY(180deg);
+  z-index: 1;
+  padding: 10px;
+}
+
+.flip-card-back2 {
+  background-color: white;
+  color: white;
+  transform: rotateX(180deg);
   z-index: 1;
   padding: 10px;
 }
@@ -429,7 +443,11 @@ h3 {
   100% { transform:  rotate(0deg); }
 }
 
-/* mobil e*/
+/* mobile */
+
+          .link {
+            pointer-events: none;
+          }
 
 
 .mobile-text {
@@ -440,7 +458,7 @@ h3 {
 @media only screen and (max-width: 769px) {
           .flip-card {
             margin: 15px auto 15px auto;
-          }
+
 
 }
 
@@ -457,8 +475,7 @@ h3 {
             font-size: 13px;
           }
 
-          
-        
+
 }
 
 /* tablet */
@@ -478,6 +495,16 @@ h3 {
 }        
 
 }
+
+@media only screen and (max-width: 768px) {
+          .flip-card:hover .flip-card-inner {
+          transform: none;
+          }   
+          .link {
+            pointer-events: auto;
+          }    
+}
+
 
 
 
