@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'washington free';
-  src: url('washington free.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('washington_free-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('washington_free-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('washington_free-webfont.woff') format('woff'), /* Pretty Modern Browsers */
 
 }
 
@@ -62,7 +64,7 @@ p {
 }
 
 .large {
-    font-family: washington free, 'Pacifico', cursive;
+    font-family: washington free, 'Dawning of a New Day', cursive;
     font-size: 120px;
     color: white;
     /*margin-left: -300px;*/
@@ -86,7 +88,7 @@ p {
 }
 
 h1 {
-  	font-family: washington free, 'Pacifico', cursive;
+  	font-family: washington free, 'Dawning of a New Day', cursive;
   	font-size: 90px;
     padding: 70px;
     color: white;
@@ -523,7 +525,7 @@ h3 {
             font-size: 12px;
           }
           .large {
-            font-family: washington free, 'Pacifico', cursive;
+            font-family: washington free, 'Dawning of a New Day', cursive;
             font-size: 60px;
             /*margin-left: -300px;*/
             font-weight: 700;
