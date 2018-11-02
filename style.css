@@ -2,6 +2,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -29,6 +30,13 @@ html {
   text-align: left !important;
 }
 
+/*.diagonal {
+  transform:rotate(-3deg);
+  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}*/
+
 /* typography */
 
 
@@ -43,18 +51,43 @@ a:hover {
 
 p {
 	font-family: futura, sans-serif;
-	line-height: 1.6em;
+	line-height: 1.7em;
   font-size: 1em;
 }
 
+.large {
+    font-family: washington free, 'Pacifico', cursive;
+    font-size: 120px;
+    color: white;
+    /*margin-left: -300px;*/
+    letter-spacing: 3px;
+    vertical-align: middle;
+    font-weight: 700;
+    transform:rotate(-6deg);
+}
+
+.large2 {
+    font-family: futura, sans-serif;
+    font-size: 0.9em;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    color: #fff;
+    /*margin-left: -300px;*/
+    letter-spacing: 3px;
+    vertical-align: middle;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 h1 {
-  	font-family: strawberry blossom, 'Pacifico', cursive;
-  	font-size: 70px;
-    padding: 80px;
+  	font-family: washington free, 'Pacifico', cursive;
+  	font-size: 90px;
+    padding: 70px;
     color: white;
     text-align: center;
     letter-spacing: 3px;
     vertical-align: middle;
+    font-weight: 700;
 }
 
 h2 {
@@ -76,12 +109,15 @@ h3 {
 /* navigation */
 
 .logo {
-  width: 50%;
+  width: 40%;
   margin-top: 10px;
 }
 
 .navlinks {
   text-align: center;
+  font-size: 1.1em;
+  font-weight: 500;
+ /* margin-left: -300px;*/
 }
 
 .padding {
@@ -111,7 +147,7 @@ h3 {
 
 .container {
   height: 525px; 
-  margin-top: 50px;
+  margin-top: 10px;
 }
  
 .photobanner {
