@@ -64,7 +64,7 @@ p {
 }
 
 .large {
-    font-family: washington free, 'Dawning of a New Day', cursive;
+    font-family: washington free, 'Allura', cursive;
     font-size: 120px;
     color: white;
     /*margin-left: -300px;*/
@@ -88,7 +88,7 @@ p {
 }
 
 h1 {
-  	font-family: washington free, 'Dawning of a New Day', cursive;
+  	font-family: washington free, 'Allura', cursive;
   	font-size: 90px;
     padding: 70px;
     color: white;
@@ -525,7 +525,7 @@ h3 {
             font-size: 12px;
           }
           .large {
-            font-family: washington free, 'Dawning of a New Day', cursive;
+            font-family: washington free, 'Allura', cursive;
             font-size: 60px;
             /*margin-left: -300px;*/
             font-weight: 700;
