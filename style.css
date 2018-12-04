@@ -32,6 +32,7 @@ html {
   overflow: hidden;*/
 }
 
+
 .page {
   margin-top: 2%;
   margin-bottom: 2%;
@@ -71,7 +72,7 @@ p {
     letter-spacing: 3px;
     vertical-align: middle;
     font-weight: 700;
-    transform:rotate(-6deg);
+    /*transform:rotate(-6deg);*/
 }
 
 .large2 {
@@ -89,13 +90,14 @@ p {
 
 h1 {
   	font-family: washington free, 'Allura', cursive;
-  	font-size: 90px;
-    padding: 70px;
+  	font-size: 220px;
+    padding: 10px;
     color: white;
     text-align: center;
     letter-spacing: 3px;
     vertical-align: middle;
     font-weight: 700;
+    margin-top: 0 auto;
 }
 
 h2 {
@@ -129,9 +131,11 @@ h3 {
 
 .navlinks {
   text-align: center;
+  vertical-align: middle;
   font-size: 1.1em;
-  font-weight: 500;
  /* margin-left: -300px;*/
+  font-weight: 600;
+  margin-top: -35px;
 }
 
 .padding {
@@ -526,9 +530,10 @@ h3 {
           }
           .large {
             font-family: washington free, 'Allura', cursive;
-            font-size: 60px;
+            font-size: 50px;
             /*margin-left: -300px;*/
             font-weight: 700;
+            padding-bottom: 20px;
           }
 
           .large2 {
@@ -540,8 +545,11 @@ h3 {
           }
 
           h1 {
-            font-size: 70px;
+            font-size: 100px;
           }
+          /*.gradient {
+            height: 150px;
+          }*/
 
 }
 
