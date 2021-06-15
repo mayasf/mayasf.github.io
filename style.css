@@ -82,7 +82,7 @@ a {
 .fa-3x {
 	color: #EE7D63;
 	padding: 15px;
-	font-size: 2em;
+	font-size: 1.5em!important;
 }
 
 .red {
