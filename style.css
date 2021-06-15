@@ -1,0 +1,128 @@
+body {
+	background-color: #FBE8E4;
+}
+
+.confetti {
+	background-image: url("confetti.svg");
+	/*background-size: cover;*/
+	background-repeat: repeat-y;
+}
+
+h1, h2, h3, h4, p {
+	color: #E94133;
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+	margin-bottom: 0;
+	font-family: 'Vidaloka', serif;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-family: 'Vidaloka', serif;
+	font-size: 32px;
+	margin-top: 10px;
+	margin-bottom: 35px;
+    letter-spacing: 10px;
+    border-bottom: 1px solid #F5B09C;
+    text-align: center;
+}
+
+h3 {
+	font-size: 17px;
+	line-height: 32px;
+	font-family: 'Vidaloka', serif;
+	text-align: left;
+
+}
+
+h4 {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 13px;
+	color: #EE7D63;
+	font-family: 'Questrial', sans-serif;
+	text-align: left;
+
+}
+
+p {
+	font-size: 15px;
+	line-height: 15px;
+	font-family: 'Questrial', sans-serif;
+	text-align: left;
+
+}
+
+a {
+	text-decoration: none;
+	color: #E94133;
+}
+
+
+.lastname {
+	font-size: 20px;
+	letter-spacing: 9px;
+	text-align: center;
+	margin-top: 0;
+}
+
+.box {
+	background-color: #fdf4f2;
+	border: 5px solid #E94133;
+	padding: 20px;
+	margin: 5px;
+	-webkit-box-shadow: 12px 12px 0px 0px #E94133;
+	-moz-box-shadow: 12px 12px 0px 0px #E94133;
+	box-shadow: 12px 12px 0px 0px #E94133;
+}
+
+.fa-3x {
+	color: #EE7D63;
+	padding: 15px;
+}
+
+.red {
+	transition: all .2s linear;
+}
+
+.red:hover {
+	color: #E94133;
+}
+
+.link {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.hover-1:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #F5B09C;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+
+.hover-1:hover:after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.bottom2 {
+    margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 819px) {
+    .bottom {
+        margin-bottom: 35px;
+    }
+  }
